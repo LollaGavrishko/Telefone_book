@@ -1,0 +1,14 @@
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\obj\Debug\netcoreapp3.1\Telefone_book.csproj.AssemblyReference.cache
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\obj\Debug\netcoreapp3.1\Telefone_book.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\obj\Debug\netcoreapp3.1\Telefone_book.AssemblyInfoInputs.cache
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\obj\Debug\netcoreapp3.1\Telefone_book.AssemblyInfo.cs
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\obj\Debug\netcoreapp3.1\Telefone_book.csproj.CoreCompileInputs.cache
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\bin\Debug\netcoreapp3.1\Telefone_book.exe
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\bin\Debug\netcoreapp3.1\Telefone_book.deps.json
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\bin\Debug\netcoreapp3.1\Telefone_book.runtimeconfig.json
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\bin\Debug\netcoreapp3.1\Telefone_book.runtimeconfig.dev.json
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\bin\Debug\netcoreapp3.1\Telefone_book.dll
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\bin\Debug\netcoreapp3.1\Telefone_book.pdb
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\obj\Debug\netcoreapp3.1\Telefone_book.dll
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\obj\Debug\netcoreapp3.1\Telefone_book.pdb
+C:\Users\79103\source\repos\Telefone_book\Telefone_book\obj\Debug\netcoreapp3.1\Telefone_book.genruntimeconfig.cache
