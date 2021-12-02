@@ -14,7 +14,7 @@ namespace Telefone_book
         public string Country { get; set; }
         public string DateOfBirth { get; set; }
         public string[] Addresses { get; set; }
-
+        Public string Note {get; set; }
     }
     class Program
     {
@@ -236,6 +236,7 @@ namespace Telefone_book
             Console.WriteLine("Дата рождения: " + person.DateOfBirth);
             Console.WriteLine("Организация: " + person.Addresses[0]);
             Console.WriteLine("Должность: " + person.Addresses[1]);
+            Console.WriteLine("Заметки: " + person.Note);
             Console.WriteLine("-------------------------------------------");
         }
    
