@@ -86,16 +86,16 @@ namespace Telefone_book
             person.LastName = Console.ReadLine();
 
             Console.Write("Отчество(не обязательно для заполнения): ");
-            person.PhoneNumber = Console.ReadLine();
+            person.SecondName = Console.ReadLine();
 
             Console.Write("Номер телефона: ");
             person.PhoneNumber = Console.ReadLine();
 
             Console.Write("Страна: ");
-            person.PhoneNumber = Console.ReadLine();
+            person.Country = Console.ReadLine();
 
             Console.Write("Дата рождения(не обязательно для заполнения): ");
-            person.PhoneNumber = Console.ReadLine();
+            person.DateOfBirth = Console.ReadLine();
 
 
             Console.Write("Организация(не обязательно для заполнения): ");
@@ -162,8 +162,9 @@ namespace Telefone_book
         }
         private static void EditPerson()
         {
+           string newInfo;
             List<Person> people = FindPeopleByFirstName();
-
+			string[] addresses = new string[2];
             Console.Clear();
 
             if (people.Count == 0)
@@ -171,6 +172,75 @@ namespace Telefone_book
                 Console.WriteLine("Человек не найден");
                 Console.ReadKey();
                 return;
+           
+            }
+            else
+            {
+                Console.WriteLine("Задайте новые данные:");
+                Console.WriteLine("Фамилия:");
+                newInfo = Console.ReadLine();
+                if (newInfo != "")
+                {
+                  string LastName = newInfo;
+                }
+                Console.WriteLine("Имя");
+                newInfo = Console.ReadLine();
+                if (newInfo != "")
+                {
+                    string FirstName = newInfo;
+                }
+                Console.WriteLine("Отчество:");
+                newInfo = Console.ReadLine();
+                if (newInfo != "")
+                {
+                    string LastName = newInfo;
+                }
+                Console.WriteLine("Номер телефона:");
+                newInfo = Console.ReadLine();
+                if (newInfo != "")
+                {
+                    try
+                    {
+                        string PhoneNumber = newInfo;
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Заданный номер телефона не соответствует формату");
+                    }
+                }
+                Console.WriteLine("Страна:");
+                newInfo = Console.ReadLine();
+                if (newInfo != "")
+                {
+                    string Country = newInfo;
+                }
+                Console.WriteLine("Дата рождения:");
+                newInfo = Console.ReadLine();
+                if (newInfo != "")
+                {
+                   string DateOfBirth = newInfo;
+                }
+                Console.WriteLine("Организация:");
+                newInfo = Console.ReadLine();
+				
+                if (newInfo != "")
+                {
+                   string Addresses = newInfo;
+                }
+                Console.WriteLine("Должность:");
+                newInfo = Console.ReadLine();
+                if (newInfo != "")
+                {
+                   string Addresses = newInfo;
+                }
+                Console.WriteLine("Заметки:");
+                newInfo = Console.ReadLine();
+                if (newInfo != "")
+                {
+                    string Note = newInfo;
+                }
+                Console.WriteLine("Запись изменена.\n");
+                Console.ReadLine();
             }
         }
         private static void SearchPerson()
