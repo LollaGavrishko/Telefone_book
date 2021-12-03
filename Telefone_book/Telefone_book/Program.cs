@@ -14,7 +14,7 @@ namespace Telefone_book
         public string Country { get; set; }
         public string DateOfBirth { get; set; }
         public string[] Addresses { get; set; }
-        Public string Note {get; set; }
+        public string Note {get; set; }
     }
     class Program
     {
