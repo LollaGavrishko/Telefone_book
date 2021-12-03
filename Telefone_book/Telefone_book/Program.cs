@@ -104,7 +104,7 @@ namespace Telefone_book
             Console.Write("Должность(не обязательно для заполнения): ");
             addresses[1] = Console.ReadLine();
             person.Addresses = addresses;
-            Console.Write("Дата рождения(не обязательно для заполнения): ");
+            Console.Write("Заметки(не обязательно для заполнения): ");
             person.Note = Console.ReadLine();
 
             People.Add(person);
